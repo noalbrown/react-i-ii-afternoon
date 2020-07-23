@@ -2,7 +2,8 @@
   height: 100vh;
   width: 100%;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
+  background-color: black;
 }
 
 .Header {
@@ -58,4 +59,40 @@
   margin-right: 250px;
 }
 
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  height:50vh;
+  width:90%;
+  margin: 10vh auto 0;
+}
 
+#Counter {
+  position: absolute;
+  right:75px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+#Name {
+  padding-left: 80px;
+  text-decoration: underline rgb(48, 155, 243);
+}
+
+.info {
+  padding-left: 80px;
+  font-weight: bolder;
+}
+
+#favMovies {
+  padding-top: 1rem;
+}
+
+.movieList {
+  list-style-type: decimal;
+  font-weight: normal;
+}
