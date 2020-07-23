@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 class Footer extends Component {
   render() {
     return (
-      <div>
-        <button>Previous</button>
-        <button>Edit</button>
-        <button>Delete</button>
-        <button>New</button>
-        <button>Next</button>
+      <div className="Footer">
+        <button className="changePage">Previous</button>
+        <button className="alterPage" id="alterLeft">Edit</button>
+        <button className="alterPage">Delete</button>
+        <button className="alterPage" id="alterRight">New</button>
+        <button className="changePage">Next</button>
       </div>
     )
   }

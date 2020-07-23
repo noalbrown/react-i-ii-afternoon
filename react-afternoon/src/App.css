@@ -20,3 +20,42 @@
   margin-left: 40px;
   text-decoration: none;
 }
+
+.Footer {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  align-items: flex-start;
+  height: 30%;
+  width: 100%;
+  background:black;
+}
+
+.changePage {
+  color:white;
+  border: none;
+  background-color: black;
+  font-size: 1.25rem;
+  padding:10px;
+  margin:0 70px;
+}
+
+.alterPage {
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(48, 155, 243);
+  padding:10px 15px;
+  margin-top: 5px;
+  border-radius: 30%;
+  border:none;
+}
+
+#alterLeft{
+  margin-left: 250px;
+}
+
+#alterRight{
+  margin-right: 250px;
+}
+
+
