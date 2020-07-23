@@ -2,7 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <a href="./App.js">Home</a>
+    <div className="Header">
+      <a href="./App.js">Home</a>
+    </div>
   )
 }
 export default Header

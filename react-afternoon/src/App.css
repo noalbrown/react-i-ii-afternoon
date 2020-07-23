@@ -4,3 +4,19 @@
   display: flex;
 	flex-direction: column;
 }
+
+.Header {
+  height: 15%;
+  width: 100%;
+  background-color: rgb(48, 155, 243);
+}
+
+.Header > a {
+  position: absolute;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  padding: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+}
